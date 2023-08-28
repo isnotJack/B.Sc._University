@@ -1,4 +1,4 @@
-# Progetto Reti Informatiche
+# Restaurant Project
 
 Benvenuti nel repository del progetto di Reti Informatiche. Questo progetto è stato sviluppato per creare un sistema che gestisce un ristorante, consentendo ai clienti di prenotare tavoli, inviare comande e monitorare lo stato dei loro pasti. Di seguito sono riportate le principali funzionalità del sistema e la sua struttura.
 
