@@ -1,0 +1,148 @@
+
+.nav-bar a {
+    text-decoration: none;
+    }
+    .nav-bar li {
+    list-style: none;
+    }
+    .img_login{
+      margin-left:-20px;
+      width:40px;
+    }
+    .nav-bar ul li a.usr_login {
+      color: orange;
+    }
+    .usr_login {
+      color: orange;
+    }
+        img {
+        width: 45%;
+    }
+    header{
+    
+      width: 100%;
+      height: 10vh;
+      background: #262525;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 100px;
+    }
+    .logo{
+      font-size: 20px;
+      font-weight: bold;
+      color: #fefefe;
+    }
+    .hamburger{
+      display: none;
+    }
+    .nav-bar ul{
+      display: flex;
+    }
+    .nav-bar ul li a {
+      display: block;
+      color: #fefefe;
+      font-size: 15px;
+      padding: 10px 25px;
+      border-radius: 50px;
+      transition: 0.2s;
+      margin: 0 5px;
+    }
+    
+    
+    .nav-bar ul li:nth-of-type(4) a {
+    margin-right: 20px;
+    }
+    /*.nav-bar ul li:nth-of-type(5) a {
+    margin-right: -18px;
+    }*/
+    
+    .nav-bar ul li:nth-of-type(6) a {
+    margin-left: -48px;
+    margin-left: -108px;
+    }
+    .nav-bar ul li:nth-of-type(7) a {
+      margin-left: -18px;
+      }
+    
+    
+    
+    .nav-bar ul li:nth-child(1) a:hover,
+    .nav-bar ul li:nth-child(2) a:hover,
+    .nav-bar ul li:nth-child(3) a:hover{
+     color: #262525;
+      background: #fefefe;
+    }
+    
+    .nav-bar ul li a.active {
+      color: #262525;
+      background: #fefefe;
+    }
+    
+    @media only screen and (max-width: 1320px){
+      header{
+        padding: 0 50px;
+      }
+    }
+    
+    @media only screen and (max-width: 1100px){
+      header{
+        padding: 0 30px;
+      }
+    }
+    
+    @media only screen and (max-width: 900px){
+      .hamburger{
+        display: block;
+        cursor: pointer;
+      }
+    
+      .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+      }
+      .nav-bar{
+        height: 0px;
+        position: absolute;
+        top:80px;
+        left:0;
+        right: 0;
+        width: 100vw;
+        background: #262525;
+        transition: 0.2s;
+        overflow: hidden;
+      }
+      .nav-bar ul li:nth-of-type(3) a {
+      margin-right: 0;
+      }
+    
+      .nav-bar ul li:nth-of-type(5) a {
+      margin-left: 0;
+      }
+      .nav-bar.active{
+        height: 450px;
+      }
+      .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+      }
+      .nav-bar.active ul{
+        opacity: 1;
+      }
+      .nav-bar ul li a {
+        margin-bottom: 12px;
+      }
+      .nav-bar {
+        position: fixed;
+       top: 58px;
+       left: 0;
+       right: 0;
+    z-index: 9999;
+    }
+    }

@@ -1,0 +1,46 @@
+
+#score-modal {
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999999999;
+  }
+  
+  .score-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 50px;
+      width:700px;
+      height:500px;
+      max-width: 800%;
+      max-height: 800%;
+      overflow-y: auto;
+  }
+  
+  .score-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+  }
+  
+  .score-content th, .score-content td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ccc;
+  }
+  
+  .score-content th {
+      background-color: #eee;
+  }
+  

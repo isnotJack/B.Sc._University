@@ -1,0 +1,35 @@
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-top:4.5rem;
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background-image: url("../img/img_login/main.png");
+    background-size: cover;
+    left: -80px;
+    top: -70px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:last-child {
+    background-image: url("../img/img_login/fantasma_yellow.png");
+    background-size: cover;
+    right: -40px;
+    bottom: -30px;
+    height: 145px;
+    width: 140px;
+    position: absolute;
+    border-radius: 10%;
+}

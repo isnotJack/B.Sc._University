@@ -1,0 +1,66 @@
+*{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+  body{
+    font-family: 'Press Start 2P', cursive;
+    background-color:rgb(12, 10, 14);
+    overflow-x:hidden;
+
+  }
+  
+  button {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+    float:right;
+  }
+
+  #btn:hover,#btn:focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff,
+                0 0 20px #008cff,
+                0 0 50px #008cff,
+                0 0 100px #008cff;
+  }
+ #btn1:hover,#btn1:focus {
+    color: #ffffff;
+    background: #e23467;
+    border: 1px solid #e23467;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #e23467,
+                0 0 20px #e23467,
+                0 0 50px #e23467,
+                0 0 100px #e23467;
+  }
+  #btn2:hover,#btn2:focus {
+    color: #ffffff;
+    background: #ac2c2c ;
+    border: 1px solid #ac2c2c ;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ac2c2c ,
+                0 0 20px #ac2c2c ,
+                0 0 50px #ac2c2c ,
+                0 0 100px #ac2c2c ;
+  }
+  h6{
+    color: #fff;
+    text-align:center;
+  }
