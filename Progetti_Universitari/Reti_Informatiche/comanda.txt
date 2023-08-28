@@ -1,0 +1,19 @@
+
+1 0 2 1  
+A1 1
+SI
+A2 2
+NO
+EOF_SI
+1 1 1 1
+P1 1
+SI
+P2 2
+NO
+EOF_SI
+2 0 1 2
+S1 1
+SI
+S2 2
+NO
+EOF_SI

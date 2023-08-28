@@ -1,0 +1,8 @@
+A1 7   Antipasto di terra   
+A2 8   Antipasto di mare   
+P1 10   Spaghetti alle vongole   
+P2 6   Rigatoni all amatriciana   
+S1 20   Frittura di calamari   
+S2 15   Arrosto misto   
+D1 5   Crostata di mele   
+D2 5   Zuppa inglese   
