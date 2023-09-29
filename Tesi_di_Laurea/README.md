@@ -9,4 +9,4 @@ Benvenuto nel repository del progetto di tesi!
   - [Validazione modelli di Machine Learning per il Riconoscimento Emotivo mediante approcci di calcolo della Feature Importance (PDF)](./tesi.pdf)
 
 - **Codice**
-  - In questa cartella troverai il codice utilizzato per il progetto.
+  - In questa cartella troverai il codice utilizzato.
