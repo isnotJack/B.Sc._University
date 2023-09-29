@@ -1,6 +1,7 @@
 # Smart Home Database Project
 
 Questo repository è stato creato per ospitare il progetto di database relazionale che gestisce un sistema per una smart home. Il progetto include l'analisi delle specifiche, la progettazione del database, l'implementazione delle funzionalità di data analytics e la creazione della documentazione necessaria per giustificare le scelte fatte durante l'intero processo di sviluppo.
+### Progetto valutato: 28/30
 
 ## Fasi del Progetto
 
