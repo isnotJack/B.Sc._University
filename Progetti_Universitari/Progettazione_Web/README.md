@@ -1,7 +1,7 @@
 # Pac-Man Game Project
 
 Questo repository è dedicato allo sviluppo di un gioco Pac-Man, realizzato con l'uso di HTML, CSS, PHP e JavaScript. Il gioco consente agli utenti di registrarsi e partecipare a diverse modalità di gioco, tra cui la modalità classica, invasion e insane. Inoltre, è disponibile una classifica dei punteggi.
-
+### Progetto valutato: 30/30
 ## Funzionalità del Progetto
 
 Il progetto include le seguenti funzionalità:
